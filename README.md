@@ -9,7 +9,10 @@ A simple one time secret app built using Fast API
  
  pip install fastapi    # Install fast api 
  pip install --upgrade pip    # Upgrade pip if necessary 
- pip install "uvicorn[standard]" # install uvicorn for real time refresh 
+ pip install "uvicorn[standard]" # install uvicorn for real time refresh  
+ 
+ uvicorn main:app --reload # Run application using
+ hit Ctrl+C # to kill application 
 ```
 
 ### References :
